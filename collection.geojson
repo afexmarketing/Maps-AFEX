@@ -480,6 +480,26 @@
         "description": "San Pedro 414, Puerto Varas, Los Lagos",
         "title": "AFEX Puerto Varas"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sunday": "false",
+        "tipo": "aeropuerto",
+        "lunvie": "24:00",
+        "sab": "24:00",
+        "dom": "24:00 hrs",
+        "tlf": "(02) 26901061",
+        "description": "Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
+        "title": "AFEX Aeropuerto Nivel 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.79341471195221,
+          -33.396976168096295
+        ]
+      }
     }
   ]
 }
