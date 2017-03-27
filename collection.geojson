@@ -6,6 +6,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -70.61183114075743,
+          -33.42231869238687
+        ]
+      },
+      "properties": {
+        "sunday": "false",
+        "tipo": "calle",
+        "lunvie": "9:00 a 18:00",
+        "sab": "cerrado",
+        "dom": "cerrado",
+        "tlf": "(02) 23341890",
+        "description": "Las Urbinas 43, Santiago, Santiago, Región Metropolitana",
+        "title": "AFEX Las Urbinas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.59835904337763,
+          -33.51697134321905
+        ]
+      },
+      "properties": {
+        "sunday": "true",
+        "tipo": "mall",
+        "lunvie": "10:30 a 21:00",
+        "sab": "10:30 a 21:00",
+        "dom": "11:00 a 19:00",
+        "tlf": "(02) 22838661",
+        "description": "Av. Vicuña Mackenna Ote. 7110, Mall Plaza Vespucio, local C-133, La Florida, Santiago, Región Metropolitana",
+        "title": "AFEX Mall Plaza Vespucio II"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.59892773628235,
+          -33.51786416078173
+        ]
+      },
+      "properties": {
+        "sunday": "true",
+        "tipo": "mall",
+        "lunvie": "9:00 a 19:00",
+        "sab": "10:00 a 19:30",
+        "dom": "11:00 a 19:00",
+        "tlf": "(02) 24239322",
+        "description": "Av. Vicuña Mackenna Ote. 7110, Mall Plaza Vespucio, local M-12, La Florida, Santiago, Región Metropolitana",
+        "title": "AFEX Mall Plaza Vespucio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -70.663679406641,
           -33.53840610127266
         ]
