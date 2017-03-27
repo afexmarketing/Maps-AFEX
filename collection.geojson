@@ -483,6 +483,13 @@
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.79360614414327,
+          -33.39684684759431
+        ]
+      },
       "properties": {
         "sunday": "false",
         "tipo": "aeropuerto",
@@ -492,17 +499,17 @@
         "tlf": "(02) 26901061",
         "description": "Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
         "title": "AFEX Aeropuerto Nivel 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.79322695732117,
-          -33.39685748435282
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7940896123182,
+          -33.396849086912
+        ]
+      },
       "properties": {
         "sunday": "false",
         "tipo": "aeropuerto",
@@ -512,13 +519,86 @@
         "tlf": "(02) 26901061",
         "description": "Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
         "title": "AFEX Aeropuerto Nivel 1"
-      },
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.79406917095184,
-          -33.39689331342453
+          -70.79441751237027,
+          -33.3968300527098
         ]
+      },
+      "properties": {
+        "sunday": "false",
+        "tipo": "aeropuerto",
+        "lunvie": "24:00",
+        "sab": "24:00",
+        "dom": "24:00 hrs.",
+        "tlf": "(02) 26901061",
+        "description": "Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
+        "title": "AFEX Aeropuerto Nivel 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.79444433446042,
+          -33.39675111670915
+        ]
+      },
+      "properties": {
+        "sunday": "false",
+        "tipo": "aeropuerto",
+        "lunvie": "24:00",
+        "sab": "24:00",
+        "dom": "24:00 hrs.",
+        "tlf": "(02) 26901061",
+        "description": "Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
+        "title": "AFEX Aeropuerto Nivel 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.79555007512681,
+          -33.396544539176595
+        ]
+      },
+      "properties": {
+        "sunday": "false",
+        "tipo": "aeropuerto",
+        "lunvie": "24:00",
+        "sab": "24:00",
+        "dom": "24:00 hrs.",
+        "tlf": "(02) 26901061",
+        "description": "Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
+        "title": "AFEX Aeropuerto Nivel 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.79609925742261,
+          -33.3964432096383
+        ]
+      },
+      "properties": {
+        "sunday": "false",
+        "tipo": "aeropuerto",
+        "lunvie": "24:00",
+        "sab": "24:00",
+        "dom": "24:00 hrs.",
+        "tlf": "(02) 26901061",
+        "description": "Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
+        "title": "AFEX Aeropuerto Nivel 3"
       }
     }
   ]
