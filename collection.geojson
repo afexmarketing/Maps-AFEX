@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "sunday": "false",
+        "sunday": false,
         "tipo": "calle",
         "lunvie": "9:00 a 18:00",
         "sab": "cerrado",
@@ -31,7 +31,7 @@
         ]
       },
       "properties": {
-        "sunday": "true",
+        "sunday": true,
         "tipo": "mall",
         "lunvie": "10:30 a 21:00",
         "sab": "10:30 a 21:00",
@@ -51,7 +51,7 @@
         ]
       },
       "properties": {
-        "sunday": "true",
+        "sunday": true,
         "tipo": "mall",
         "lunvie": "9:00 a 19:00",
         "sab": "10:00 a 19:30",
@@ -71,7 +71,7 @@
         ]
       },
       "properties": {
-        "sunday": "true",
+        "sunday": true,
         "tipo": "mall",
         "lunvie": "10:00 a 21:00",
         "sab": "10:00 a 19:00",
@@ -91,7 +91,7 @@
         ]
       },
       "properties": {
-        "sunday": "true",
+        "sunday": true,
         "tipo": "mall",
         "lunvie": "9:00 a 20:00",
         "sab": "10:00 a 19:00",
@@ -111,7 +111,7 @@
         ]
       },
       "properties": {
-        "sunday": "false",
+        "sunday": false,
         "tipo": "calle",
         "lunvie": "9:00 a 20:00",
         "sab": "10:00 a 18:00",
@@ -131,7 +131,7 @@
         ]
       },
       "properties": {
-        "sunday": "false",
+        "sunday": false,
         "tipo": "calle",
         "lunvie": "9:00 a 18:30",
         "sab": "10:00 a 14:00",
@@ -151,7 +151,7 @@
         ]
       },
       "properties": {
-        "sunday": "false",
+        "sunday": false,
         "tipo": "calle",
         "lunvie": "9:00 a 18:00",
         "sab": "cerrado",
@@ -171,7 +171,7 @@
         ]
       },
       "properties": {
-        "sunday": "true",
+        "sunday": true,
         "tipo": "mall",
         "lunvie": "10:00 a 22:00",
         "sab": "10:00 a 22:00",
@@ -191,7 +191,7 @@
         ]
       },
       "properties": {
-        "sunday": "true",
+        "sunday": true,
         "tipo": "calle",
         "lunvie": "9:00 a 20:00",
         "sab": "9:00 a 20:00",
@@ -211,7 +211,7 @@
         ]
       },
       "properties": {
-        "sunday": "false",
+        "sunday": false,
         "tipo": "calle",
         "lunvie": "9:00 a 19:00",
         "sab": "10:00 a 14:00",
@@ -231,7 +231,7 @@
         ]
       },
       "properties": {
-        "sunday": "true",
+        "sunday": true,
         "tipo": "mall",
         "lunvie": "10:00 a 21:00",
         "sab": "10:00 a 20:30",
