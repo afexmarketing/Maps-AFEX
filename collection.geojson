@@ -6,6 +6,186 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -70.663679406641,
+          -33.53840610127266
+        ]
+      },
+      "properties": {
+        "sunday": "true",
+        "tipo": "mall",
+        "lunvie": "10:00 a 21:00",
+        "sab": "10:00 a 19:00",
+        "dom": "11:00 a 19:00",
+        "tlf": "(02) 25482817",
+        "description": "Av. Américo Vespucio 33, Estación Intermodal La Cisterna, Local 13-D, La Cisterna, Santigo, Región Metropolitana",
+        "title": "AFEX La Cisterna"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.67951516866492,
+          -33.45140849825114
+        ]
+      },
+      "properties": {
+        "sunday": "true",
+        "tipo": "mall",
+        "lunvie": "9:00 a 20:00",
+        "sab": "10:00 a 19:00",
+        "dom": "11:00 a 18:00",
+        "tlf": "(02) 26369138",
+        "description": "Mall Arauco Estación, Galería Poniente, local 135-137, Estación Central, Santiago, Región Metropolitana",
+        "title": "AFEX Estación Central"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.56770728587912,
+          -33.40926511949884
+        ]
+      },
+      "properties": {
+        "sunday": "false",
+        "tipo": "calle",
+        "lunvie": "9:00 a 20:00",
+        "sab": "10:00 a 18:00",
+        "dom": "cerrado",
+        "tlf": "(02) 22021178",
+        "description": "Av. Apoquindo 6089, local 3, Las Condes, Santiago, Región Metropolitana",
+        "title": "AFEX El Faro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.60156238587916,
+          -33.415128643856974
+        ]
+      },
+      "properties": {
+        "sunday": "false",
+        "tipo": "calle",
+        "lunvie": "9:00 a 18:30",
+        "sab": "10:00 a 14:00",
+        "dom": "cerrado",
+        "tlf": "(02) 23330848",
+        "description": "Av. El Bosque Norte 0196, Las Condes, Santiago, Región Metropolitana",
+        "title": "AFEX El Bosque"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.60269861286287,
+          -33.415825964100435
+        ]
+      },
+      "properties": {
+        "sunday": "false",
+        "tipo": "calle",
+        "lunvie": "9:00 a 18:00",
+        "sab": "cerrado",
+        "dom": "cerrado",
+        "tlf": "(02) 22314265",
+        "description": "Ebro 2747, Las Condes, Santiago, Región Metropolitana",
+        "title": "AFEX Ebro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.60644369720615,
+          -33.41755917701692
+        ]
+      },
+      "properties": {
+        "sunday": "true",
+        "tipo": "mall",
+        "lunvie": "10:00 a 22:00",
+        "sab": "10:00 a 22:00",
+        "dom": "10:00 a 22:00",
+        "tlf": "(02) 26189741",
+        "description": "Av. Andrés Bello 2447, Mall Costanera Center, local 212 PB, Providencia, Santiago, Región Metropolitana",
+        "title": "AFEX Costanera Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.65210310055954,
+          -33.4373990364165
+        ]
+      },
+      "properties": {
+        "sunday": "true",
+        "tipo": "calle",
+        "lunvie": "9:00 a 20:00",
+        "sab": "9:00 a 20:00",
+        "dom": "9:00 a 20:00",
+        "tlf": "(02) 26369137",
+        "description": "Catedral 1063, Santiago, Santiago, Región Metropolitana",
+        "title": "AFEX Catedral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.65143067780576,
+          -33.44085670319544
+        ]
+      },
+      "properties": {
+        "sunday": "false",
+        "tipo": "calle",
+        "lunvie": "9:00 a 19:00",
+        "sab": "10:00 a 14:00",
+        "dom": "cerrado",
+        "tlf": "(02) 26881146",
+        "description": "Agustinas 1050, Santiago, Santiago, Región Metropolitana",
+        "title": "AFEX Agustinas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6823164335213,
+          -33.45268207708681
+        ]
+      },
+      "properties": {
+        "sunday": "true",
+        "tipo": "mall",
+        "lunvie": "10:00 a 21:00",
+        "sab": "10:00 a 20:30",
+        "dom": "10:00 a 20:30",
+        "tlf": "(02) 28987877",
+        "description": "Av Libertador Bernardo O'Higgins 3470, Mall Alameda, local BZ-123, Estación Central, Santiago, Región Metropolitana",
+        "title": "AFEX Mall Alameda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -70.31791492947377,
           -18.479253544741685
         ]
