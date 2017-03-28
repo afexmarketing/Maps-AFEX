@@ -4,9 +4,47 @@
 <meta charset="UTF-8">
 <title>CodePen - Map with Buttons</title>
   <style>
-      #map {
+html {
   width: 100%;
-  height: 400px;
+  height: 100%;
+  background-color: #e2e4e5;
+  font-family: arial, helvetica;
+}
+body {
+  width: 968px;
+  margin: 0 auto;
+}
+#header {
+  width: 918px;
+  height: 50px;
+  background-image: url(header.gif);
+  background-repeat: no-repeat;
+  padding: 170px 0 0 50px;
+  font-size: 1.5em
+}
+#filtros {
+  float: left;
+  color: #333;
+  font-family: Roboto;
+  font-weight: 300;
+  margin: 15px 20px 0 5px;
+  width: 280px;
+  height: 250px;
+  padding: 50px 30px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+#map {
+  width: 600px;
+  height: 700px;
+}
+#footer {
+  width: 968px;
+  height: 61px;
+  background-image: url(footer.gif);
+  background-repeat: no-repeat;
 }
   </style>
 
@@ -16,17 +54,17 @@
 
 </head>
 <body>
+<div id="header"> Sucursales AFEX</div>
+<div id="filtros">
   <input type="checkbox" name="filter" id="sunday" class='chk-btn'>
-  <label for='sunday'>Abierto los Domingos</label>
-<br>
-<br>
-<div id="map"></div>
-<br>
+  <label for='sunday'>Domingos</label>
+</div>
+  <div id="map"></div>
+<div id="footer"></div>
 
 <script>
 var map
 var markers = []
-
 // start out with filter features set to false, so no filtering happens by default
 var filters = {sunday:false}
 
@@ -93,8 +131,8 @@ var map_filter = function(id_val) {
 // and add the pop up (info) windows
 function loadMarkers() {
   console.log('creating markers')
-  var infoWindow = new google.maps.InfoWindow()
-  geojson_url = 'collection.geojson'
+  var infoWindow = new google.maps.InfoWindow({maxWidth: 350})
+  geojson_url = 'https://raw.githubusercontent.com/elcayeyo/Maps-AFEX/master/collection.geojson'
   $.getJSON(geojson_url, function(result) {
       // Post select to url.
       data = result['features']
@@ -117,7 +155,7 @@ function loadMarkers() {
           icon: icon
          });
 
-        var markerInfo = "<div><h3>" + titleText + "</h3>Direcci&oacute;n: " + descriptionText + "<br>Horario:<br>Lunes a Viernes " + lunvieText + "hrs. <br>S&aacute;bado " + sabText + "hrs. <br>Domingo " + domText +"hrs.<br>Tel&eacute;fono " + tlfText + "</div>"
+        var markerInfo = "<div><h3>" + titleText + "</h3>Direcci&oacute;n: " + descriptionText + "<br><br>Horario de atención:<br>Lunes a Viernes <strong>" + lunvieText + "</strong> <br>S&aacute;bado <strong>" + sabText + "</strong> <br>Domingo <strong>" + domText +"</strong><br><br>Tel&eacute;fono <strong>" + tlfText + "</strong></div>"
 
 
         marker.addListener('click', function() {
@@ -132,20 +170,70 @@ function loadMarkers() {
 
 function initMap() {
     map_options = {
-      zoom: 9,
+      zoom: 5,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
-      center: {lat: -33.2532062, lng: -70.9207003}
+      mapTypeControl: false,
+      center: {lat: -30, lng: -72}
     }
-    
+
     map_document = document.getElementById('map')
     map = new google.maps.Map(map_document,map_options);
     loadMarkers()
- 
+
+ var infoWindow = new google.maps.InfoWindow({map: map});
+ // Try HTML5 geolocation.
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      var pos = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      };
+
+      infoWindow.setPosition(pos);
+      infoWindow.setContent("Usted está aquí.");
+      
+var here = new google.maps.Marker({position: pos, map: map, icon: 'here.png'});
+      map.setCenter(pos);
+      map.setZoom(14);
+    }, function() {
+      handleLocationError(true, here, map.getCenter());
+    });
+  } else {
+    // Browser doesn't support Geolocation
+    handleLocationError(false, here, map.getCenter());
+  }
+
+/*
+ var infoWindow = new google.maps.InfoWindow({map: map});
+
+  // Try HTML5 geolocation.
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      var pos = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      };
+
+      infoWindow.setPosition(pos);
+      infoWindow.setContent("Usted está aquí.");
+      map.setCenter(pos);
+    }, function() {
+      handleLocationError(true, infoWindow, map.getCenter());
+    });
+  } else {
+    // Browser doesn't support Geolocation
+    handleLocationError(false, infoWindow, map.getCenter());
+  }
+  */
+}
+
+function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+  infoWindow.setPosition(pos);
+  infoWindow.setContent(infoWindow.close());
 }
 
 google.maps.event.addDomListener(window, 'load', initMap);
   //# sourceURL=pen.js
   </script>
-
 </body>
 </html>
