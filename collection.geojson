@@ -6,6 +6,266 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -70.74973847213516,
+          -33.48289725092209
+        ]
+      },
+      "properties": {
+        "sunday": "true",
+        "tipo": "mall",
+        "lunvie": "10:30 a 21:30",
+        "sab": "10:30 a 21:30",
+        "dom": "10:30 a 21:30",
+        "tlf": "(22) 6369108",
+        "description": "Av. Américo Vespucio 300, Mall Arauco Maipú, local #406 piso 2, Maipú, Santiago, Región Metropolitana",
+        "title": "AFEX Mall Arauco Maipú"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.64712788406143,
+          -33.429429784363094
+        ]
+      },
+      "properties": {
+        "sunday": false,
+        "tipo": "calle",
+        "lunvie": "9:00 a 18:30",
+        "sab": "10:00 a 17:30",
+        "dom": "cerrado",
+        "tlf": "(02) 23800730",
+        "description": "Av. Recoleta 320, Mall Recoleta Center, local 101, Recoleta, Santiago, Región Metropolitana",
+        "title": "AFEX Recoleta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.57550300297157,
+          -33.61261104914308
+        ]
+      },
+      "properties": {
+        "sunday": true,
+        "tipo": "mall",
+        "lunvie": "10:00 a 19:00",
+        "sab": "10:00 a 19:00",
+        "dom": "11:00 a 18:00",
+        "tlf": "(02) 28500370",
+        "description": "Concha y Toro 047, CC Plaza Puente Concha y Toro, local 32, Puente Alto, Santiago, Región Metropolitana",
+        "title": "AFEX Puente Alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.61264670919263,
+          -33.423496778973096
+        ]
+      },
+      "properties": {
+        "sunday": false,
+        "tipo": "calle",
+        "lunvie": "9:00 a 18:00",
+        "sab": "10:00 a 14:00",
+        "dom": "cerrado",
+        "tlf": "(02) 22237202",
+        "description": "Pedro de Valdivia 012, Providencia, Santiago, Región Metropolitana",
+        "title": "AFEX Providencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.71083311744383,
+          -33.63183990576387
+        ]
+      },
+      "properties": {
+        "sunday": true,
+        "tipo": "mall",
+        "lunvie": "10:00 a 19:00",
+        "sab": "10:00 a 19:00",
+        "dom": "11:00 a 19:00",
+        "tlf": "(02) 28578298",
+        "description": "Pdte Jorge Alessandri Rodríguez 20040, Mall Plaza Sur, local BF 100, San Bernardo, Santiago, Región Metropolitana",
+        "title": "AFEX Mall Plaza Sur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.71733571129226,
+          -33.51714065659856
+        ]
+      },
+      "properties": {
+        "sunday": true,
+        "tipo": "mall",
+        "lunvie": "10:00 a 19:30",
+        "sab": "10:30 a 19:00",
+        "dom": "11:00 a 19:00",
+        "tlf": "(02) 25863763",
+        "description": "Av. Américo Vespucio 1501, Mall Plaza Oeste. local BDK 2040 A, Cerrillos, Santiago, Región Metropolitana",
+        "title": "AFEX Mall Plaza Oeste"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.67914798437806,
+          -33.36500708166985
+        ]
+      },
+      "properties": {
+        "sunday": true,
+        "tipo": "mall",
+        "lunvie": "10:00 a 21:00",
+        "sab": "10:00 a 21:00",
+        "dom": "10:00 a 21:00",
+        "tlf": "(02) 27211370",
+        "description": "Americo Vespucio 1737, Mall Plaza Norte, local 9B, Huechuraba, Santiago, Región Metropolitana",
+        "title": "AFEX Mall Plaza Norte"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.56986131891023,
+          -33.4530158396178
+        ]
+      },
+      "properties": {
+        "sunday": true,
+        "tipo": "mall",
+        "lunvie": "10:00 a 21:30",
+        "sab": "10:00 a 21:30",
+        "dom": "10:00 a 21:30",
+        "tlf": "(02) 28306183",
+        "description": "Av. Larraín 5862, Mall Plaza Egaña, local S-1100, nivel 0, La Reina, Santiago, Región Metropolitana",
+        "title": "AFEX Mall Plaza Egaña"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.57809461321409,
+          -33.40258655542051
+        ]
+      },
+      "properties": {
+        "sunday": true,
+        "tipo": "mall",
+        "lunvie": "10:00 a 20:30",
+        "sab": "10:00 a 20:30",
+        "dom": "11:00 a 20:30",
+        "tlf": "(02) 22294169",
+        "description": "Av Presidente Kennedy 5413, Mall Parque Arauco, local 506, Las Condes, Santiago, Región Metropolitana",
+        "title": "AFEX Parque Arauco"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.65277023588783,
+          -33.44213899595888
+        ]
+      },
+      "properties": {
+        "sunday": false,
+        "tipo": "calle",
+        "lunvie": "9:00 a 18:30",
+        "sab": "cerrado",
+        "dom": "cerrado",
+        "tlf": "(02) 26369081",
+        "description": "Moneda 1148, Santiago, Santiago, Región Metropolitana",
+        "title": "AFEX Moneda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.64971536397933,
+          -33.441580812466505
+        ]
+      },
+      "properties": {
+        "sunday": false,
+        "tipo": "calle",
+        "lunvie": "9:00 a 18:00",
+        "sab": "10:00 a 14:00",
+        "dom": "cerrado",
+        "tlf": "(02) 26640251",
+        "description": "Matías Cousiño 125, Santiago, Santiago, Región Metropolitana",
+        "title": "AFEX Matías Cousiño"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6519899,
+          -33.4352023
+        ]
+      },
+      "properties": {
+        "sunday": true,
+        "tipo": "mall",
+        "lunvie": "10:00 a 21:00",
+        "sab": "10:00 a 21:00",
+        "dom": "11:00 a 21:00",
+        "tlf": "(02) 26397301",
+        "description": "Paseo Puente 689, Mall del Centro, local 15, Primer Subterraneo, Santiago, Santiago, Región Metropolitana",
+        "title": "AFEX Mall del Centro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.75800816627037,
+          -33.51028373085755
+        ]
+      },
+      "properties": {
+        "sunday": false,
+        "tipo": "galeria",
+        "lunvie": "10:00 a 20:00",
+        "sab": "10:00 a 20:00",
+        "dom": "cerrado",
+        "tlf": "(02) 25323569",
+        "description": "Av. 5 de Abril 33, Mall Pumay, Pasaje M. Guzmán Maturana 1870, Maipú, Santiago, Región Metropolitana",
+        "title": "AFEX Maipu Pumay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -70.61183114075743,
           -33.42231869238687
         ]
@@ -731,7 +991,7 @@
         ]
       },
       "properties": {
-        "sunday": "false",
+        "sunday": true,
         "tipo": "aeropuerto",
         "lunvie": "24:00",
         "sab": "24:00",
@@ -751,7 +1011,7 @@
         ]
       },
       "properties": {
-        "sunday": "false",
+        "sunday": true,
         "tipo": "aeropuerto",
         "lunvie": "24:00",
         "sab": "24:00",
@@ -771,7 +1031,7 @@
         ]
       },
       "properties": {
-        "sunday": "false",
+        "sunday": true,
         "tipo": "aeropuerto",
         "lunvie": "24:00",
         "sab": "24:00",
@@ -791,7 +1051,7 @@
         ]
       },
       "properties": {
-        "sunday": "false",
+        "sunday": true,
         "tipo": "aeropuerto",
         "lunvie": "24:00",
         "sab": "24:00",
@@ -811,7 +1071,7 @@
         ]
       },
       "properties": {
-        "sunday": "false",
+        "sunday": true,
         "tipo": "aeropuerto",
         "lunvie": "24:00",
         "sab": "24:00",
@@ -831,7 +1091,7 @@
         ]
       },
       "properties": {
-        "sunday": "false",
+        "sunday": true,
         "tipo": "aeropuerto",
         "lunvie": "24:00",
         "sab": "24:00",
