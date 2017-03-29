@@ -1,0 +1,137 @@
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #e2e4e5;
+  font-family: arial, helvetica;
+}
+body {
+  width: 968px;
+  margin: 0 auto;
+  background-color: white;
+}
+#header {
+  width: 918px;
+  height: 50px;
+  background-image: url(header.gif);
+  background-repeat: no-repeat;
+  padding: 170px 0 0 50px;
+  font-size: 1.5em
+}
+#footer {
+  width: 968px;
+  height: 61px;
+  background-image: url(footer.gif);
+  background-repeat: no-repeat;
+}
+#contenido {
+  width: 968px;
+  height: 600px;
+}
+#map {
+  width: 968px;
+  height: 600px;
+  position: absolute;
+}
+#panel {
+  width: 170px;
+  height: 55px;
+  background-color: white;
+  margin: 46px 0 0 10px; 
+  position: relative;
+  padding: 10px 15px 15px 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 5px 5px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 13px;
+  color: #555;
+  border-top: 4px solid #7db341;
+}
+#titulopanel {
+  width: 272px;
+  height: 10px;
+  padding: 15px;
+  background-color: #335746;
+  color: white;
+  position: relative;
+  margin-left: 10px;
+  border-top: 5px solid #7db341;
+}
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 1.95em;
+  cursor: pointer;
+}
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: 'Todas las Sucursales';
+  position: absolute;
+  top: 8px;  left: 0;
+  padding: 8px;
+  width: 145px; height: 20px;
+  background: grey;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.25);
+}
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: 'Abierta los Domingos';
+  position: absolute;
+  padding: 8px;
+  width: 145px; height: 20px;
+  background: #7db341;
+  top: 8px;  left: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.25);
+}
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+label {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+.controls {
+  border: 1px solid #ededed;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 42px;
+  outline: none;
+  margin: 45px 0 0 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+#pac-input {
+  background-color: #fff;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 302px;
+  font-size: 13px;
+  cursor: text;
+}
+#pac-input:focus {
+  border-color: #43b05b;
+}
+.pac-container {
+  font-family: Roboto;
+}
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}

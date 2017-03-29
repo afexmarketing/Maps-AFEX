@@ -1,239 +1,30 @@
 <!DOCTYPE html>
 <html >
-<head>
-<meta charset="UTF-8">
-<title>CodePen - Map with Buttons</title>
-  <style>
-html {
-  width: 100%;
-  height: 100%;
-  background-color: #e2e4e5;
-  font-family: arial, helvetica;
-}
-body {
-  width: 968px;
-  margin: 0 auto;
-}
-#header {
-  width: 918px;
-  height: 50px;
-  background-image: url(header.gif);
-  background-repeat: no-repeat;
-  padding: 170px 0 0 50px;
-  font-size: 1.5em
-}
-#filtros {
-  float: left;
-  color: #333;
-  font-family: Roboto;
-  font-weight: 300;
-  margin: 15px 20px 0 5px;
-  width: 280px;
-  height: 250px;
-  padding: 50px 30px;
-  border: 1px solid transparent;
-  border-radius: 2px;
-  background-color: white;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-}
-#map {
-  width: 600px;
-  height: 700px;
-}
-#footer {
-  width: 968px;
-  height: 61px;
-  background-image: url(footer.gif);
-  background-repeat: no-repeat;
-}
-  </style>
-
-<script src="https://maps.googleapis.com/maps/api/js"></script>
-<script src="script.js"></script>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+<title>Sucursales AFEX</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="filtro.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
 </head>
 <body>
 <div id="header"> Sucursales AFEX</div>
-<div id="filtros">
-  <input type="checkbox" name="filter" id="sunday" class='chk-btn'>
-  <label for='sunday'>Domingos</label>
-</div>
+<div id="contenido">
   <div id="map"></div>
+  <div id="titulopanel">Busca la sucursal AFEX más cercana</div>
+  <div id="panel">
+    Filtro por horario de atención
+    <input id="pac-input" class="controls" type="text" placeholder="Introduce una ubicación en Chile">
+    <div id="filtro">
+      <input type="checkbox" name="filter" id="sunday" class='chk-btn'>
+      <label for='sunday'></label>
+    </div>
+  </div>
+</div>
 <div id="footer"></div>
-
-<script>
-var map
-var markers = []
-// start out with filter features set to false, so no filtering happens by default
-var filters = {sunday:false}
-
-$(function () {
-    $('input[name=filter]').change(function (e) {
-     map_filter(this.id);
-      filter_markers()
-  });
-})
-
-var get_set_options = function() {
-  ret_array = []
-  for (option in filters) {if (window.CP.shouldStopExecution(1)){break;}
-    if (filters[option]) {
-      ret_array.push(option)
-    }
-  }
-window.CP.exitedLoop(1);
-
-  return ret_array;
-}
-
-var filter_markers = function() {  
-  set_filters = get_set_options()
-  
-  // for each marker, check to see if all required options are set
-  for (i = 0; i < markers.length; i++) {if (window.CP.shouldStopExecution(3)){break;}
-    marker = markers[i];
-
-    // start the filter check assuming the marker will be displayed
-    // if any of the required features are missing, set 'keep' to false
-    // to discard this marker
-    keep=true
-    mapset = map
-    for (opt=0; opt<set_filters.length; opt++) {if (window.CP.shouldStopExecution(2)){break;}
-      if (!marker.properties[set_filters[opt]]) {
-        keep = false;
-      }
-    }
-window.CP.exitedLoop(2);
-
-    marker.setVisible(keep)
-  }
-window.CP.exitedLoop(3);
-
-}
-
-var map_filter = function(id_val) {
-   if (filters[id_val]) 
-      filters[id_val] = false
-   else
-      filters[id_val] = true
-}
-// avatar personalizado
-
-     var customLabel = {
-        calle: 'afexcalle.png',
-        mall: 'afexmall.png',
-        galeria: 'afexcalle.png',
-        aeropuerto: 'afexaeropuerto.png'
-      };
-
-// after the geojson is loaded, iterate through the map data to create markers
-// and add the pop up (info) windows
-function loadMarkers() {
-  console.log('creating markers')
-  var infoWindow = new google.maps.InfoWindow({maxWidth: 350})
-  geojson_url = 'https://raw.githubusercontent.com/elcayeyo/Maps-AFEX/master/collection.geojson'
-  $.getJSON(geojson_url, function(result) {
-      // Post select to url.
-      data = result['features']
-      $.each(data, function(key, val) {
-        var point = new google.maps.LatLng(
-                parseFloat(val['geometry']['coordinates'][1]),
-                parseFloat(val['geometry']['coordinates'][0]));
-        var titleText = val['properties']['title']
-        var descriptionText = val['properties']['description']
-        var lunvieText = val['properties']['lunvie']
-        var sabText = val['properties']['sab']
-        var domText = val['properties']['dom']
-        var tlfText = val['properties']['tlf']
-        var icon = customLabel[val['properties']['tipo']] || {}
-        var marker = new google.maps.Marker({
-          position: point,
-          title: titleText,
-          map: map,
-          properties: val['properties'],
-          icon: icon
-         });
-
-        var markerInfo = "<div><h3>" + titleText + "</h3>Direcci&oacute;n: " + descriptionText + "<br><br>Horario de atención:<br>Lunes a Viernes <strong>" + lunvieText + "</strong> <br>S&aacute;bado <strong>" + sabText + "</strong> <br>Domingo <strong>" + domText +"</strong><br><br>Tel&eacute;fono <strong>" + tlfText + "</strong></div>"
-
-
-        marker.addListener('click', function() {
-              infoWindow.close()
-              infoWindow.setContent(markerInfo)
-              infoWindow.open(map, marker)
-            });
-        markers.push(marker)
-      });
-  });
-}
-
-function initMap() {
-    map_options = {
-      zoom: 5,
-      mapTypeId: google.maps.MapTypeId.ROADMAP,
-      mapTypeControl: false,
-      center: {lat: -30, lng: -72}
-    }
-
-    map_document = document.getElementById('map')
-    map = new google.maps.Map(map_document,map_options);
-    loadMarkers()
-
- var infoWindow = new google.maps.InfoWindow({map: map});
- // Try HTML5 geolocation.
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      var pos = {
-        lat: position.coords.latitude,
-        lng: position.coords.longitude
-      };
-
-      infoWindow.setPosition(pos);
-      infoWindow.setContent("Usted está aquí.");
-      
-var here = new google.maps.Marker({position: pos, map: map, icon: 'here.png'});
-      map.setCenter(pos);
-      map.setZoom(14);
-    }, function() {
-      handleLocationError(true, here, map.getCenter());
-    });
-  } else {
-    // Browser doesn't support Geolocation
-    handleLocationError(false, here, map.getCenter());
-  }
-
-/*
- var infoWindow = new google.maps.InfoWindow({map: map});
-
-  // Try HTML5 geolocation.
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      var pos = {
-        lat: position.coords.latitude,
-        lng: position.coords.longitude
-      };
-
-      infoWindow.setPosition(pos);
-      infoWindow.setContent("Usted está aquí.");
-      map.setCenter(pos);
-    }, function() {
-      handleLocationError(true, infoWindow, map.getCenter());
-    });
-  } else {
-    // Browser doesn't support Geolocation
-    handleLocationError(false, infoWindow, map.getCenter());
-  }
-  */
-}
-
-function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-  infoWindow.setPosition(pos);
-  infoWindow.setContent(infoWindow.close());
-}
-
-google.maps.event.addDomListener(window, 'load', initMap);
-  //# sourceURL=pen.js
-  </script>
+<script src="afexmap.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBw96T9oem_KQX7wPSfOtR7oWVz16YUGaY&libraries=places&callback=initAutocomplete"
+         async defer></script>
 </body>
 </html>
