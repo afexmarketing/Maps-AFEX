@@ -25,11 +25,11 @@ body {
 }
 #contenido {
   width: 968px;
-  height: 600px;
+  height: 450px;
 }
 #map {
   width: 968px;
-  height: 600px;
+  height: 450px;
   position: absolute;
 }
 #panel {
