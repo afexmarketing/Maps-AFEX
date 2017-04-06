@@ -1042,9 +1042,9 @@
         "marker-symbol": "",
         "sunday": "true",
         "tipo": "aeropuerto",
-        "lunvie": "7:00 a 23:00",
-        "sab": "7:00 a 23:00",
-        "dom": "7:00 a 23:00",
+        "lunvie": "24:00 hrs.",
+        "sab": "24:00 hrs.",
+        "dom": "24:00 hrs.",
         "tlf": "(02) 26901061",
         "description": "-Área  Internacional- Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
         "title": "AFEX Aeropuerto Nivel 1"
