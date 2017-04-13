@@ -6,6 +6,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -70.72952449321747,
+          -33.36822085556948
+        ]
+      },
+      "properties": {
+        "sunday": "true",
+        "tipo": "mall",
+        "lunvie": "10:30 a 19:00",
+        "sab": "10:30 a 19:00",
+        "dom": "10:30 a 19:00",
+        "tlf": "",
+        "description": "Av. O'Higgins 581, Mall Arauco Quilicura, local #29, Quilicura, Santiago, Región Metropolitana",
+        "title": "AFEX Mall Arauco Quilicura"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -70.74973847213516,
           -33.48289725092209
         ]
