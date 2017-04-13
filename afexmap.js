@@ -48,7 +48,7 @@ var map_filter = function(id_val) {
 function loadMarkers() {
   console.log('creating markers')
   var infoWindow = new google.maps.InfoWindow({maxWidth: 350})
-  geojson_url = 'https://raw.githubusercontent.com/elcayeyo/Maps-AFEX/master/collection.geojson'
+  geojson_url = 'https://raw.githubusercontent.com/afexmarketing/Maps-AFEX/master/collection.geojson'
   $.getJSON(geojson_url, function(result) {
       data = result['features']
       $.each(data, function(key, val) {
