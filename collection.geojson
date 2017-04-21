@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "sunday": "true",
+        "sunday": true,
         "tipo": "mall",
         "lunvie": "10:30 a 19:00",
         "sab": "10:30 a 19:00",
@@ -31,7 +31,7 @@
         ]
       },
       "properties": {
-        "sunday": "true",
+        "sunday": true,
         "tipo": "mall",
         "lunvie": "10:30 a 21:30",
         "sab": "10:30 a 21:30",
@@ -71,9 +71,12 @@
         ]
       },
       "properties": {
-        "sunday": true,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "true",
         "tipo": "mall",
-        "lunvie": "10:00 a 19:00",
+        "lunvie": "10:00 a 20:00",
         "sab": "10:00 a 19:00",
         "dom": "11:00 a 18:00",
         "tlf": "(02) 28500370",
