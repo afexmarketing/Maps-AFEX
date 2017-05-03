@@ -5,7 +5,7 @@ html {
   font-family: arial, helvetica;
 }
 body {
-  width: 968px;
+  width: 100%;
   margin: 0 auto;
   background-color: white;
 }
@@ -24,12 +24,12 @@ body {
   background-repeat: no-repeat;
 }
 #contenido {
-  width: 968px;
-  height: 450px;
+  width: 100%;
+  height: 100%;
 }
 #map {
-  width: 968px;
-  height: 450px;
+  width: 100%;
+  height: 100%;
   position: absolute;
 }
 #panel {
@@ -46,6 +46,13 @@ body {
   font-size: 13px;
   color: #555;
   border-top: 4px solid #7db341;
+}
+#leyenda {
+  width: 424px;
+  height: 32px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 #titulopanel {
   width: 272px;
