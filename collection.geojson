@@ -13,10 +13,10 @@
       "properties": {
         "sunday": true,
         "tipo": "mall",
-        "lunvie": "10:30 a 19:00",
-        "sab": "10:30 a 19:00",
-        "dom": "10:30 a 19:00",
-        "tlf": "",
+        "lunvie": "10:00 a 21:00",
+        "sab": "10:00 a 21:00",
+        "dom": "10:00 a 21:00",
+        "tlf": "(22) 6369198",
         "description": "Av. O'Higgins 581, Mall Arauco Quilicura, local #29, Quilicura, Santiago, Región Metropolitana",
         "title": "AFEX Mall Arauco Quilicura"
       }
