@@ -43,7 +43,8 @@ var map_filter = function(id_val) {
         calle: 'afexcalle.png',
         mall: 'afexmall.png',
         galeria: 'afexcalle.png',
-        aeropuerto: 'afexaeropuerto.png'
+        aeropuerto: 'afexaeropuerto.png',
+        nuevo: 'afexnuevo.png'
       };
 function loadMarkers() {
   console.log('creating markers')
