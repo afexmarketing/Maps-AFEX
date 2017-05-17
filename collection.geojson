@@ -6,6 +6,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -70.55785775184631,
+          -33.56842761567489
+        ]
+      },
+      "properties": {
+        "sunday": true,
+        "tipo": "mallpronto",
+        "lunvie": "cerrado",
+        "sab": "cerrado",
+        "dom": "cerrado",
+        "tlf": "",
+        "description": "Avenida Camilo Henríquez #3692, Mall Plaza Tobalaba, Local BH 164, Puente Alto, Santiago, Región Metropolitana",
+        "title": "Próximamente..."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -70.72952449321747,
           -33.36822085556948
         ]
