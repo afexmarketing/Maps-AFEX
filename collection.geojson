@@ -19,7 +19,6 @@
         "tlf": "(22) 6369090",
         "description": "Avenida Camilo Henríquez #3692, Mall Plaza Tobalaba, Local BH 164, Puente Alto, Santiago, Región Metropolitana",
         "title": "Próximamente..."
-
       }
     },
     {
@@ -92,7 +91,7 @@
         ]
       },
       "properties": {
-        "marker-color": "",
+        "marker-color": "#808080",
         "marker-size": "",
         "marker-symbol": "",
         "sunday": "true",
@@ -1035,7 +1034,7 @@
         ]
       },
       "properties": {
-        "marker-color": "",
+        "marker-color": "#808080",
         "marker-size": "",
         "marker-symbol": "",
         "sunday": "true",
@@ -1058,7 +1057,7 @@
         ]
       },
       "properties": {
-        "marker-color": "",
+        "marker-color": "#808080",
         "marker-size": "",
         "marker-symbol": "",
         "sunday": "true",
@@ -1081,7 +1080,7 @@
         ]
       },
       "properties": {
-        "marker-color": "",
+        "marker-color": "#808080",
         "marker-size": "",
         "marker-symbol": "",
         "sunday": "true",
@@ -1104,7 +1103,7 @@
         ]
       },
       "properties": {
-        "marker-color": "",
+        "marker-color": "#808080",
         "marker-size": "",
         "marker-symbol": "",
         "sunday": "true",
@@ -1127,7 +1126,7 @@
         ]
       },
       "properties": {
-        "marker-color": "",
+        "marker-color": "#808080",
         "marker-size": "",
         "marker-symbol": "",
         "sunday": "true",
@@ -1150,7 +1149,7 @@
         ]
       },
       "properties": {
-        "marker-color": "",
+        "marker-color": "#808080",
         "marker-size": "",
         "marker-symbol": "",
         "sunday": "true",
