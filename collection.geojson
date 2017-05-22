@@ -12,13 +12,14 @@
       },
       "properties": {
         "sunday": true,
-        "tipo": "mallpronto",
-        "lunvie": "cerrado",
-        "sab": "cerrado",
-        "dom": "cerrado",
-        "tlf": "(22) 6369090",
-        "description": "Avenida Camilo Henríquez #3692, Mall Plaza Tobalaba, Local BH 164, Puente Alto, Santiago, Región Metropolitana",
-        "title": "Próximamente..."
+        "tipo": "mallnuevo",
+        "lunvie": "10:00 a 21:00",
+        "sab": "10:00 a 21:00",
+        "dom": "11:00 a 21:00",
+        "tlf": "(22) 6369198",
+        "description": "Av. O'Higgins 581, Mall Arauco Quilicura, local #29, Quilicura, Santiago, Región Metropolitana",
+        "title": "AFEX Mall Arauco Quilicura",
+        "marker-color": ""
       }
     },
     {
@@ -32,13 +33,13 @@
       },
       "properties": {
         "sunday": true,
-        "tipo": "mallnuevo",
-        "lunvie": "10:00 a 21:00",
-        "sab": "10:00 a 21:00",
-        "dom": "11:00 a 21:00",
-        "tlf": "(22) 6369198",
-        "description": "Av. O'Higgins 581, Mall Arauco Quilicura, local #29, Quilicura, Santiago, Región Metropolitana",
-        "title": "AFEX Mall Arauco Quilicura"
+        "tipo": "mallpronto",
+        "lunvie": "cerrado",
+        "sab": "cerrado",
+        "dom": "cerrado",
+        "tlf": "(22) 6369090",
+        "description": "Avenida Camilo Henríquez #3692, Mall Plaza Tobalaba, Local BH 164, Puente Alto, Santiago, Región Metropolitana",
+        "title": "Próximamente..."
       }
     },
     {
@@ -91,8 +92,8 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
+        "marker-color": "",
+        "marker-size": "",
         "marker-symbol": "",
         "sunday": "true",
         "tipo": "mall",
@@ -1034,8 +1035,8 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
+        "marker-color": "",
+        "marker-size": "",
         "marker-symbol": "",
         "sunday": "true",
         "tipo": "aeropuerto",
@@ -1057,8 +1058,8 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
+        "marker-color": "",
+        "marker-size": "",
         "marker-symbol": "",
         "sunday": "true",
         "tipo": "aeropuerto",
@@ -1080,8 +1081,8 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
+        "marker-color": "",
+        "marker-size": "",
         "marker-symbol": "",
         "sunday": "true",
         "tipo": "aeropuerto",
@@ -1103,8 +1104,8 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
+        "marker-color": "",
+        "marker-size": "",
         "marker-symbol": "",
         "sunday": "true",
         "tipo": "aeropuerto",
@@ -1126,8 +1127,8 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
+        "marker-color": "",
+        "marker-size": "",
         "marker-symbol": "",
         "sunday": "true",
         "tipo": "aeropuerto",
@@ -1149,8 +1150,8 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
+        "marker-color": "",
+        "marker-size": "",
         "marker-symbol": "",
         "sunday": "true",
         "tipo": "aeropuerto",
