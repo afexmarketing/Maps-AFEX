@@ -314,13 +314,16 @@
         ]
       },
       "properties": {
-        "sunday": false,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "false",
         "tipo": "calle",
         "lunvie": "9:00 a 18:00",
         "sab": "cerrado",
         "dom": "cerrado",
         "tlf": "(02) 23341890",
-        "description": "Las Urbinas 43, Santiago, Santiago, Región Metropolitana",
+        "description": "Las Urbinas 43, Providencia, Santiago, Región Metropolitana",
         "title": "AFEX Las Urbinas"
       }
     },
