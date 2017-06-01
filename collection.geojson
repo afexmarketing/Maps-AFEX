@@ -837,9 +837,12 @@
         ]
       },
       "properties": {
-        "sunday": false,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "false",
         "tipo": "calle",
-        "lunvie": "9:00 a 18:30",
+        "lunvie": "9:00 a 18:00",
         "sab": "10:00 a 14:00",
         "dom": "cerrado",
         "tlf": "(32) 2226534",
