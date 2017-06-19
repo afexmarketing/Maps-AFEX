@@ -19,7 +19,7 @@
         "lunvie": "10:00 a 21:30",
         "sab": "10:00 a 21:30",
         "dom": "10:00 a 21:30",
-        "tlf": "(22) 6369090",
+        "tlf": "(22) 6369188",
         "description": "Avenida Camilo Henríquez #3692, Mall Plaza Tobalaba, Local BH 164, Puente Alto, Santiago, Región Metropolitana",
         "title": "AFEX Mall Plaza Tobalaba"
       }
@@ -34,8 +34,11 @@
         ]
       },
       "properties": {
-        "sunday": true,
-        "tipo": "mallnuevo",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "true",
+        "tipo": "mall",
         "lunvie": "10:00 a 21:00",
         "sab": "10:00 a 21:00",
         "dom": "11:00 a 21:00",
