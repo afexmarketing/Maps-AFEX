@@ -658,18 +658,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.40262042079121,
-          -23.645148285543602
+          -70.40235131978989,
+          -23.64562986243086
         ]
       },
       "properties": {
-        "sunday": false,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "false",
         "tipo": "mall",
         "lunvie": "9:30 a 19:00",
         "sab": "11:00 a 17:00",
         "dom": "cerrado",
         "tlf": "(55) 2533460",
-        "description": "Balmaceda 2355, Mall Plaza Antofagasta, local D, Antofagasta, Antofagasta",
+        "description": "Bulevar de servicios (entre banco Estado y Santander, Balmaceda 2355, Mall Plaza Antofagasta, local D, Antofagasta, Antofagasta",
         "title": "AFEX Mall Plaza Antofagasta"
       }
     },
