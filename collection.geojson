@@ -949,11 +949,14 @@
         ]
       },
       "properties": {
-        "sunday": true,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "true",
         "tipo": "mall",
         "lunvie": "10:00 a 19:00",
         "sab": "10:00 a 19:00",
-        "dom": "10:00 a 14:00",
+        "dom": "10:00 a 16:00",
         "tlf": "(22) 6369196",
         "description": "Av. Jorge Alessandri 3177, Mall Plaza El Trébol, Local BT 153, Talcahuano, Bío-Bío",
         "title": "AFEX Mall Plaza El Trébol"
