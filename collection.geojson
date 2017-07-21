@@ -1179,6 +1179,29 @@
         "description": "-Área Internacional- Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
         "title": "AFEX Aeropuerto Nivel 3"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "true",
+        "tipo": "mallpronto",
+        "lunvie": "cerrado",
+        "sab": "cerrado",
+        "dom": "cerrado",
+        "tlf": "(02) 26369000",
+        "title": "AFEX Mall Plaza Los Dominicos",
+        "description": "Av. Padre Hurtado Sur 785, Mall Plaza Los Dominicos, local BS-1452, Las Condes, Santiago, Región Metropolitana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.54054409265518,
+          -33.416267958861134
+        ]
+      }
     }
   ]
 }
