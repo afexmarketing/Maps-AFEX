@@ -240,13 +240,16 @@
         ]
       },
       "properties": {
-        "sunday": false,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "false",
         "tipo": "calle",
         "lunvie": "9:00 a 18:30",
         "sab": "cerrado",
         "dom": "cerrado",
         "tlf": "(02) 26369081",
-        "description": "Moneda 1148, Santiago, Santiago, Región Metropolitana",
+        "description": "Moneda 1148, Santiago Centro, Santiago, Región Metropolitana",
         "title": "AFEX Moneda"
       }
     },
@@ -260,13 +263,16 @@
         ]
       },
       "properties": {
-        "sunday": false,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "false",
         "tipo": "calle",
         "lunvie": "9:00 a 18:00",
         "sab": "10:00 a 14:00",
         "dom": "cerrado",
         "tlf": "(02) 26640251",
-        "description": "Matías Cousiño 125, Santiago, Santiago, Región Metropolitana",
+        "description": "Matías Cousiño 125, Santiago Centro, Santiago, Región Metropolitana",
         "title": "AFEX Matías Cousiño"
       }
     },
@@ -280,13 +286,16 @@
         ]
       },
       "properties": {
-        "sunday": true,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "true",
         "tipo": "mall",
         "lunvie": "10:00 a 21:00",
         "sab": "10:00 a 21:00",
         "dom": "11:00 a 21:00",
         "tlf": "(02) 26397301",
-        "description": "Paseo Puente 689, Mall del Centro, local 15, Primer Subterraneo, Santiago, Santiago, Región Metropolitana",
+        "description": "Paseo Puente 689, Mall del Centro, local 15, Primer Subterraneo, Santiago Centro, Santiago, Región Metropolitana",
         "title": "AFEX Mall del Centro"
       }
     },
@@ -503,13 +512,16 @@
         ]
       },
       "properties": {
-        "sunday": true,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "true",
         "tipo": "calle",
         "lunvie": "9:00 a 20:00",
         "sab": "9:00 a 20:00",
         "dom": "9:00 a 20:00",
         "tlf": "(02) 26369137",
-        "description": "Catedral 1063, Santiago, Santiago, Región Metropolitana",
+        "description": "Catedral 1063, Santiago Centro, Santiago, Región Metropolitana",
         "title": "AFEX Catedral"
       }
     },
@@ -523,13 +535,16 @@
         ]
       },
       "properties": {
-        "sunday": false,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "false",
         "tipo": "calle",
         "lunvie": "9:00 a 19:00",
         "sab": "10:00 a 14:00",
         "dom": "cerrado",
         "tlf": "(02) 26881146",
-        "description": "Agustinas 1050, Santiago, Santiago, Región Metropolitana",
+        "description": "Agustinas 1050, Santiago Centro, Santiago, Región Metropolitana",
         "title": "AFEX Agustinas"
       }
     },
