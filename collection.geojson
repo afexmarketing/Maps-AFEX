@@ -392,11 +392,14 @@
         ]
       },
       "properties": {
-        "sunday": true,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "true",
         "tipo": "mall",
-        "lunvie": "10:00 a 21:00",
-        "sab": "10:00 a 19:00",
-        "dom": "11:00 a 19:00",
+        "lunvie": "09:00 a 20:00",
+        "sab": "09:00 a 19:00",
+        "dom": "09:30 a 19:00",
         "tlf": "(02) 25482817",
         "description": "Av. Américo Vespucio 33, Estación Intermodal La Cisterna, Local 13-D, La Cisterna, Santigo, Región Metropolitana",
         "title": "AFEX La Cisterna"
