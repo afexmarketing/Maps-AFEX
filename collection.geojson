@@ -140,9 +140,12 @@
         ]
       },
       "properties": {
-        "sunday": true,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "true",
         "tipo": "mall",
-        "lunvie": "10:00 a 19:00",
+        "lunvie": "10:00 a 20:00",
         "sab": "10:00 a 19:00",
         "dom": "11:00 a 19:00",
         "tlf": "(02) 28578298",
