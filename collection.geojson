@@ -11,9 +11,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "mallnuevo",
         "lunvie": "10:00 a 21:30",
@@ -21,7 +18,9 @@
         "dom": "10:00 a 21:30",
         "tlf": "(22) 6369188",
         "description": "Avenida Camilo Henríquez #3692, Mall Plaza Tobalaba, Local BH 164, Puente Alto, Santiago, Región Metropolitana",
-        "title": "AFEX Mall Plaza Tobalaba"
+        "title": "AFEX Mall Plaza Tobalaba",
+        "jefe": "Carlos Valdes",
+        "ip": "9184"
       }
     },
     {
@@ -34,9 +33,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "mall",
         "lunvie": "10:00 a 21:00",
@@ -44,7 +40,9 @@
         "dom": "11:00 a 21:00",
         "tlf": "(22) 6369198",
         "description": "Av. O'Higgins 581, Mall Arauco Quilicura, local #29, Quilicura, Santiago, Región Metropolitana",
-        "title": "AFEX Mall Arauco Quilicura"
+        "title": "AFEX Mall Arauco Quilicura",
+        "jefe": "Carlos Silva",
+        "ip": "9199"
       }
     },
     {
@@ -64,7 +62,9 @@
         "dom": "10:30 a 21:30",
         "tlf": "(22) 6369108",
         "description": "Av. Américo Vespucio 300, Mall Arauco Maipú, local #406 piso 2, Maipú, Santiago, Región Metropolitana",
-        "title": "AFEX Mall Arauco Maipú"
+        "title": "AFEX Mall Arauco Maipú",
+        "jefe": "Cristopher Pinto",
+        "ip": "9108"
       }
     },
     {
@@ -84,7 +84,9 @@
         "dom": "cerrado",
         "tlf": "(02) 23800730",
         "description": "Av. Recoleta 320, Mall Recoleta Center, local 101, Recoleta, Santiago, Región Metropolitana",
-        "title": "AFEX Recoleta"
+        "title": "AFEX Recoleta",
+        "jefe": "Daniel Sanhueza",
+        "ip": "9134"
       }
     },
     {
@@ -97,9 +99,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#808080",
-        "marker-size": "",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "mall",
         "lunvie": "10:00 a 20:00",
@@ -107,7 +106,9 @@
         "dom": "11:00 a 18:00",
         "tlf": "(02) 28500370",
         "description": "Concha y Toro 047, CC Plaza Puente Concha y Toro, local 32, Puente Alto, Santiago, Región Metropolitana",
-        "title": "AFEX Puente Alto"
+        "title": "AFEX Puente Alto",
+        "jefe": "Felix Contrera",
+        "ip": "9119"
       }
     },
     {
@@ -127,7 +128,9 @@
         "dom": "cerrado",
         "tlf": "(02) 22237202",
         "description": "Pedro de Valdivia 012, Providencia, Santiago, Región Metropolitana",
-        "title": "AFEX Providencia"
+        "title": "AFEX Providencia",
+        "jefe": "Javier Alvarez",
+        "ip": "9033"
       }
     },
     {
@@ -140,9 +143,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "mall",
         "lunvie": "10:00 a 19:00",
@@ -150,7 +150,9 @@
         "dom": "11:00 a 19:00",
         "tlf": "(02) 28578298",
         "description": "Pdte Jorge Alessandri Rodríguez 20040, Mall Plaza Sur, local BF 100, San Bernardo, Santiago, Región Metropolitana",
-        "title": "AFEX Mall Plaza Sur"
+        "title": "AFEX Mall Plaza Sur",
+        "jefe": "Rodrigo Espinoza",
+        "ip": "9131"
       }
     },
     {
@@ -170,7 +172,9 @@
         "dom": "11:00 a 19:00",
         "tlf": "(02) 25863763",
         "description": "Av. Américo Vespucio 1501, Mall Plaza Oeste. local BDK 2040 A, Cerrillos, Santiago, Región Metropolitana",
-        "title": "AFEX Mall Plaza Oeste"
+        "title": "AFEX Mall Plaza Oeste",
+        "jefe": "Carlos Venegas",
+        "ip": "9122"
       }
     },
     {
@@ -190,7 +194,9 @@
         "dom": "10:00 a 21:00",
         "tlf": "(02) 27211370",
         "description": "Americo Vespucio 1737, Mall Plaza Norte, local 9B, Huechuraba, Santiago, Región Metropolitana",
-        "title": "AFEX Mall Plaza Norte"
+        "title": "AFEX Mall Plaza Norte",
+        "jefe": "Yoselin Cruz",
+        "ip": "9124"
       }
     },
     {
@@ -210,7 +216,9 @@
         "dom": "10:00 a 21:30",
         "tlf": "(02) 28306183",
         "description": "Av. Larraín 5862, Mall Plaza Egaña, local S-1100, nivel 0, La Reina, Santiago, Región Metropolitana",
-        "title": "AFEX Mall Plaza Egaña"
+        "title": "AFEX Mall Plaza Egaña",
+        "jefe": "Andres Garbarino",
+        "ip": "9144"
       }
     },
     {
@@ -230,7 +238,9 @@
         "dom": "11:00 a 20:30",
         "tlf": "(02) 22294169",
         "description": "Av Presidente Kennedy 5413, Mall Parque Arauco, local 506, Las Condes, Santiago, Región Metropolitana",
-        "title": "AFEX Parque Arauco"
+        "title": "AFEX Parque Arauco",
+        "jefe": "Patricia Gutierrez",
+        "ip": "9065"
       }
     },
     {
@@ -243,9 +253,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "sunday": "false",
         "tipo": "calle",
         "lunvie": "9:00 a 18:30",
@@ -253,7 +260,9 @@
         "dom": "cerrado",
         "tlf": "(02) 26369081",
         "description": "Moneda 1148, Santiago Centro, Santiago, Región Metropolitana",
-        "title": "AFEX Moneda"
+        "title": "AFEX Moneda",
+        "jefe": "German Rojas",
+        "ip": "9081"
       }
     },
     {
@@ -266,9 +275,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "sunday": "false",
         "tipo": "calle",
         "lunvie": "9:00 a 18:00",
@@ -276,7 +282,9 @@
         "dom": "cerrado",
         "tlf": "(02) 26640251",
         "description": "Matías Cousiño 125, Santiago Centro, Santiago, Región Metropolitana",
-        "title": "AFEX Matías Cousiño"
+        "title": "AFEX Matías Cousiño",
+        "jefe": "Ivan Sepulveda",
+        "ip": "9149"
       }
     },
     {
@@ -289,9 +297,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "mall",
         "lunvie": "10:00 a 21:00",
@@ -299,7 +304,9 @@
         "dom": "11:00 a 21:00",
         "tlf": "(02) 26397301",
         "description": "Paseo Puente 689, Mall del Centro, local 15, Primer Subterraneo, Santiago Centro, Santiago, Región Metropolitana",
-        "title": "AFEX Mall del Centro"
+        "title": "AFEX Mall del Centro",
+        "jefe": "Daniel Guerrero",
+        "ip": "9057"
       }
     },
     {
@@ -319,7 +326,9 @@
         "dom": "cerrado",
         "tlf": "(02) 25323569",
         "description": "Av. 5 de Abril 33, Mall Pumay, Pasaje M. Guzmán Maturana 1870, Maipú, Santiago, Región Metropolitana",
-        "title": "AFEX Maipu Pumay"
+        "title": "AFEX Maipu Pumay",
+        "jefe": "Carlos Mella",
+        "ip": "9093"
       }
     },
     {
@@ -332,9 +341,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "sunday": "false",
         "tipo": "calle",
         "lunvie": "9:00 a 18:00",
@@ -342,7 +348,9 @@
         "dom": "cerrado",
         "tlf": "(02) 23341890",
         "description": "Las Urbinas 43, Providencia, Santiago, Región Metropolitana",
-        "title": "AFEX Las Urbinas"
+        "title": "AFEX Las Urbinas",
+        "jefe": "Javier Alvarez",
+        "ip": "9029"
       }
     },
     {
@@ -362,7 +370,9 @@
         "dom": "11:00 a 19:00",
         "tlf": "(02) 22838661",
         "description": "Av. Vicuña Mackenna Ote. 7110, Mall Plaza Vespucio, local C-133, La Florida, Santiago, Región Metropolitana",
-        "title": "AFEX Mall Plaza Vespucio II"
+        "title": "AFEX Mall Plaza Vespucio II",
+        "jefe": "Luis Cumian",
+        "ip": "9118"
       }
     },
     {
@@ -382,7 +392,9 @@
         "dom": "11:00 a 19:00",
         "tlf": "(02) 24239322",
         "description": "Av. Vicuña Mackenna Ote. 7110, Mall Plaza Vespucio, local M-12, La Florida, Santiago, Región Metropolitana",
-        "title": "AFEX Mall Plaza Vespucio"
+        "title": "AFEX Mall Plaza Vespucio",
+        "jefe": "Hugo Sepulveda",
+        "ip": "9092"
       }
     },
     {
@@ -395,9 +407,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "mall",
         "lunvie": "09:00 a 20:00",
@@ -405,7 +414,9 @@
         "dom": "09:30 a 19:00",
         "tlf": "(02) 25482817",
         "description": "Av. Américo Vespucio 33, Estación Intermodal La Cisterna, Local 13-D, La Cisterna, Santigo, Región Metropolitana",
-        "title": "AFEX La Cisterna"
+        "title": "AFEX La Cisterna",
+        "jefe": "Carlos Vivar",
+        "ip": "9112"
       }
     },
     {
@@ -425,7 +436,9 @@
         "dom": "11:00 a 18:00",
         "tlf": "(02) 26369138",
         "description": "Mall Arauco Estación, Galería Poniente, local 135-137, Estación Central, Santiago, Región Metropolitana",
-        "title": "AFEX Estación Central"
+        "title": "AFEX Estación Central",
+        "jefe": "Gustavo Manzano",
+        "ip": "9120"
       }
     },
     {
@@ -445,7 +458,9 @@
         "dom": "cerrado",
         "tlf": "(02) 22021178",
         "description": "Av. Apoquindo 6089, local 3, Las Condes, Santiago, Región Metropolitana",
-        "title": "AFEX El Faro"
+        "title": "AFEX El Faro",
+        "jefe": "Cristian Rivero",
+        "ip": "9123"
       }
     },
     {
@@ -465,7 +480,9 @@
         "dom": "cerrado",
         "tlf": "(02) 23330848",
         "description": "Av. El Bosque Norte 0196, Las Condes, Santiago, Región Metropolitana",
-        "title": "AFEX El Bosque"
+        "title": "AFEX El Bosque",
+        "jefe": "Pablo Lopez",
+        "ip": "9113"
       }
     },
     {
@@ -485,7 +502,9 @@
         "dom": "cerrado",
         "tlf": "(02) 22314265",
         "description": "Ebro 2747, Las Condes, Santiago, Región Metropolitana",
-        "title": "AFEX Ebro"
+        "title": "AFEX Ebro",
+        "jefe": "Arturo Braun",
+        "ip": "9008"
       }
     },
     {
@@ -505,7 +524,9 @@
         "dom": "10:00 a 22:00",
         "tlf": "(02) 26189741",
         "description": "Av. Andrés Bello 2447, Mall Costanera Center, local 212 PB, Providencia, Santiago, Región Metropolitana",
-        "title": "AFEX Costanera Center"
+        "title": "AFEX Costanera Center",
+        "jefe": "Daniel Castro",
+        "ip": "9135"
       }
     },
     {
@@ -518,9 +539,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "calle",
         "lunvie": "9:00 a 20:00",
@@ -528,7 +546,9 @@
         "dom": "9:00 a 20:00",
         "tlf": "(02) 26369137",
         "description": "Catedral 1063, Santiago Centro, Santiago, Región Metropolitana",
-        "title": "AFEX Catedral"
+        "title": "AFEX Catedral",
+        "jefe": "Juan Meza",
+        "ip": "9077"
       }
     },
     {
@@ -541,9 +561,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "sunday": "false",
         "tipo": "calle",
         "lunvie": "9:00 a 19:00",
@@ -551,7 +568,9 @@
         "dom": "cerrado",
         "tlf": "(02) 26881146",
         "description": "Agustinas 1050, Santiago Centro, Santiago, Región Metropolitana",
-        "title": "AFEX Agustinas"
+        "title": "AFEX Agustinas",
+        "jefe": "Christian Ulloa",
+        "ip": "9086"
       }
     },
     {
@@ -571,7 +590,9 @@
         "dom": "10:00 a 20:30",
         "tlf": "(02) 28987877",
         "description": "Av Libertador Bernardo O'Higgins 3470, Mall Alameda, local BZ-123, Estación Central, Santiago, Región Metropolitana",
-        "title": "AFEX Mall Alameda"
+        "title": "AFEX Mall Alameda",
+        "jefe": "Alex Catrian",
+        "ip": "9121"
       }
     },
     {
@@ -591,7 +612,9 @@
         "dom": "cerrado",
         "tlf": "(58) 2251280",
         "description": "21 de Mayo 425A, Arica, Arica y Parinacota",
-        "title": "AFEX Arica"
+        "title": "AFEX Arica",
+        "jefe": "Ricaldi Sanchez",
+        "ip": "9114"
       }
     },
     {
@@ -611,7 +634,9 @@
         "dom": "cerrado",
         "tlf": "(57) 2414324",
         "description": "Patricio Lynch 467A, Iquique, Tarapacá",
-        "title": "AFEX Iquique centro"
+        "title": "AFEX Iquique centro",
+        "jefe": "Yendy Salvo",
+        "ip": "9054-9181"
       }
     },
     {
@@ -631,7 +656,9 @@
         "dom": "10:00 a 14:00",
         "tlf": "(57) 2437532",
         "description": "Av. Heroes de La Concepción 2855, Plazuela Los Héroes L7, Iquique, Tarapacá",
-        "title": "AFEX Iquique Jumbo"
+        "title": "AFEX Iquique Jumbo",
+        "jefe": "Teresa Lemunao",
+        "ip": "9115"
       }
     },
     {
@@ -651,7 +678,9 @@
         "dom": "cerrado",
         "tlf": "(55) 2265093",
         "description": "Almirante Latorre 2522, local 4, Antofagasta, Antofagasta",
-        "title": "AFEX Antofagasta"
+        "title": "AFEX Antofagasta",
+        "jefe": "Olga Gaete",
+        "ip": "9082"
       }
     },
     {
@@ -671,7 +700,9 @@
         "dom": "cerrado",
         "tlf": "(55) 2360977",
         "description": "Sotomayor 2125, Calama, Antofagasta",
-        "title": "AFEX Calama"
+        "title": "AFEX Calama",
+        "jefe": "Susan Morales",
+        "ip": "9128"
       }
     },
     {
@@ -684,9 +715,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "sunday": "false",
         "tipo": "mall",
         "lunvie": "9:30 a 19:00",
@@ -694,7 +722,9 @@
         "dom": "cerrado",
         "tlf": "(55) 2533460",
         "description": "Bulevar de servicios (entre banco Estado y Santander, Balmaceda 2355, Mall Plaza Antofagasta, local D, Antofagasta, Antofagasta",
-        "title": "AFEX Mall Plaza Antofagasta"
+        "title": "AFEX Mall Plaza Antofagasta",
+        "jefe": "Javier Soto",
+        "ip": "9125"
       }
     },
     {
@@ -714,7 +744,9 @@
         "dom": "10:00 a 20:00",
         "tlf": "(52) 2356646",
         "description": "Maipú 0110, Mall Plaza Copiapo Local BH-124, Copiapó, Atacama",
-        "title": "AFEX Mall Plaza Copiapó"
+        "title": "AFEX Mall Plaza Copiapó",
+        "jefe": "Susana Naveas",
+        "ip": "9178"
       }
     },
     {
@@ -734,7 +766,9 @@
         "dom": "cerrado",
         "tlf": "(51) 2317665",
         "description": "Bilbao 335, Coquimbo, Coquimbo",
-        "title": "AFEX Coquimbo"
+        "title": "AFEX Coquimbo",
+        "jefe": "Jessica Castro",
+        "ip": "9116"
       }
     },
     {
@@ -754,7 +788,9 @@
         "dom": "cerrado",
         "tlf": "(51) 2217751",
         "description": "José Manuel Balmaceda 413, La Serena, Coquimbo",
-        "title": "AFEX La Serena centro"
+        "title": "AFEX La Serena centro",
+        "jefe": "Alejandro Rojas",
+        "ip": "9117"
       }
     },
     {
@@ -774,7 +810,9 @@
         "dom": "10:00 a 20:00",
         "tlf": "(22) 6369106",
         "description": "Alberto Solari 1400, Mall Plaza la Serena, Boulevard de Servicios, Local 1 y 2, La Serena, Coquimbo",
-        "title": "AFEX Mall Plaza La Serena"
+        "title": "AFEX Mall Plaza La Serena",
+        "jefe": "Jonathan Calderon",
+        "ip": "9105"
       }
     },
     {
@@ -794,7 +832,9 @@
         "dom": "cerrado",
         "tlf": "(34) 2402969",
         "description": "O'Higgins 294, Los Andes, Valparaiso",
-        "title": "AFEX Los Andes"
+        "title": "AFEX Los Andes",
+        "jefe": "Angela Viveros",
+        "ip": "9126"
       }
     },
     {
@@ -814,7 +854,9 @@
         "dom": "10:30 a 20:00",
         "tlf": "(22) 6369177",
         "description": "Libertad 1348, Mall Marina Arauco, local E-8, Viña del Mar, Valparaiso",
-        "title": "AFEX Mall Marina Arauco"
+        "title": "AFEX Mall Marina Arauco",
+        "jefe": "Angel Moya",
+        "ip": "9177"
       }
     },
     {
@@ -834,7 +876,9 @@
         "dom": "cerrado",
         "tlf": "(32) 2910575",
         "description": "Los Carrera 712, Local 2, Quilpué, Valparaiso",
-        "title": "AFEX Quilpué"
+        "title": "AFEX Quilpué",
+        "jefe": "Guillermo Farias",
+        "ip": "9148"
       }
     },
     {
@@ -854,7 +898,9 @@
         "dom": "10:00 a 20:00",
         "tlf": "(35) 2214295",
         "description": "Ramón Barros Luco 105, Mall Arauco San Antonio, Local 19, San Antonio, Valparaiso",
-        "title": "AFEX Mall Arauco San Antonio"
+        "title": "AFEX Mall Arauco San Antonio",
+        "jefe": "Claudio Navarro",
+        "ip": "9132"
       }
     },
     {
@@ -867,9 +913,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "sunday": "false",
         "tipo": "calle",
         "lunvie": "9:00 a 18:00",
@@ -877,7 +920,9 @@
         "dom": "cerrado",
         "tlf": "(32) 2226534",
         "description": "Cochrane 828, Valparaiso, Valparaiso",
-        "title": "AFEX Valparaiso centro"
+        "title": "AFEX Valparaiso centro",
+        "jefe": "Victor Arratia",
+        "ip": "9059-9142"
       }
     },
     {
@@ -897,7 +942,9 @@
         "dom": "cerrado",
         "tlf": "(32) 2688102",
         "description": "Arlegui 690, Viña del Mar, Valparaiso",
-        "title": "AFEX Viña del Mar centro"
+        "title": "AFEX Viña del Mar centro",
+        "jefe": "Jose Miguel Araya",
+        "ip": "9058-9139"
       }
     },
     {
@@ -917,7 +964,9 @@
         "dom": "10:00 a 21:00",
         "tlf": "(72) 2227003",
         "description": "Cuevas esq. Campos, Mall Patio, Local 009, 1er Subterraneo, Rancagua, O'Higgins",
-        "title": "AFEX Rancagua"
+        "title": "AFEX Rancagua",
+        "jefe": "Gabriel Gonzalez",
+        "ip": "9127"
       }
     },
     {
@@ -937,7 +986,9 @@
         "dom": "cerrado",
         "tlf": "(71) 2215040",
         "description": "Dos Ote. 1131, Talca, Maule",
-        "title": "AFEX Talca"
+        "title": "AFEX Talca",
+        "jefe": "Rodrigo Ugarte",
+        "ip": "9130"
       }
     },
     {
@@ -957,7 +1008,9 @@
         "dom": "cerrado",
         "tlf": "(41) 2239618",
         "description": "Barros Arana 565, Galería Internacional, local 57, Concepción, Bío-Bío",
-        "title": "AFEX Concepción"
+        "title": "AFEX Concepción",
+        "jefe": "Juan Carlos Turra",
+        "ip": "9096"
       }
     },
     {
@@ -970,9 +1023,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "mall",
         "lunvie": "10:00 a 19:00",
@@ -980,7 +1030,9 @@
         "dom": "10:00 a 16:00",
         "tlf": "(22) 6369196",
         "description": "Av. Jorge Alessandri 3177, Mall Plaza El Trébol, Local BT 153, (Al costado Aeropuerto de Concepción) Talcahuano, Bío-Bío",
-        "title": "AFEX Mall Plaza El Trébol"
+        "title": "AFEX Mall Plaza El Trébol",
+        "jefe": "Jorge Espinoza",
+        "ip": "9195"
       }
     },
     {
@@ -1000,7 +1052,9 @@
         "dom": "10:00 a 20:00",
         "tlf": "(43) 2451130",
         "description": "Valdivia 440, Mall Plaza Los Angeles, local BH-120, Los Angeles, Bío-Bío",
-        "title": "AFEX Mall Plaza Los Angeles"
+        "title": "AFEX Mall Plaza Los Angeles",
+        "jefe": "Jose Muñoz",
+        "ip": "9141"
       }
     },
     {
@@ -1020,7 +1074,9 @@
         "dom": "cerrado",
         "tlf": "(45) 2231075",
         "description": "Antonio Varas 914, Temuco, La Araucanía",
-        "title": "AFEX Temuco"
+        "title": "AFEX Temuco",
+        "jefe": "Jose Astete",
+        "ip": "9133"
       }
     },
     {
@@ -1040,7 +1096,9 @@
         "dom": "cerrado",
         "tlf": "(65) 2256604",
         "description": "Diego Portales 516, Puerto Montt, Los Lagos",
-        "title": "AFEX Puerto Montt"
+        "title": "AFEX Puerto Montt",
+        "jefe": "Marcela Werner",
+        "ip": "9083"
       }
     },
     {
@@ -1060,7 +1118,9 @@
         "dom": "cerrado",
         "tlf": "(65) 2232377",
         "description": "San Pedro 414, Puerto Varas, Los Lagos",
-        "title": "AFEX Puerto Varas"
+        "title": "AFEX Puerto Varas",
+        "jefe": "Nancy Velasquez",
+        "ip": "9111"
       }
     },
     {
@@ -1073,9 +1133,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#808080",
-        "marker-size": "",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "aeropuerto",
         "lunvie": "24:00 hrs.",
@@ -1083,7 +1140,9 @@
         "dom": "7:00 a 23:00",
         "tlf": "(02) 26901061",
         "description": "-Área Pública- Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
-        "title": "AFEX Aeropuerto Nivel 1"
+        "title": "AFEX Aeropuerto Nivel 1",
+        "jefe": "Rodrigo Reyes",
+        "ip": "9094"
       }
     },
     {
@@ -1096,9 +1155,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#808080",
-        "marker-size": "",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "aeropuerto",
         "lunvie": "7:00 a 23:00",
@@ -1106,7 +1162,9 @@
         "dom": "7:00 a 23:00",
         "tlf": "(02) 26901061",
         "description": "-Área Pública- Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
-        "title": "AFEX Aeropuerto Nivel 1"
+        "title": "AFEX Aeropuerto Nivel 1",
+        "jefe": "Rodrigo Reyes",
+        "ip": "9094"
       }
     },
     {
@@ -1119,9 +1177,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#808080",
-        "marker-size": "",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "aeropuerto",
         "lunvie": "24:00 hrs.",
@@ -1129,7 +1184,9 @@
         "dom": "24:00 hrs.",
         "tlf": "(02) 26901061",
         "description": "-Área  Internacional- Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
-        "title": "AFEX Aeropuerto Nivel 1"
+        "title": "AFEX Aeropuerto Nivel 1",
+        "jefe": "Rodrigo Reyes",
+        "ip": "9094"
       }
     },
     {
@@ -1142,9 +1199,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#808080",
-        "marker-size": "",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "aeropuerto",
         "lunvie": "24:00 hrs.",
@@ -1152,7 +1206,9 @@
         "dom": "24:00 hrs.",
         "tlf": "(02) 26901061",
         "description": "-Área Pública- Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
-        "title": "AFEX Aeropuerto Nivel 3"
+        "title": "AFEX Aeropuerto Nivel 3",
+        "jefe": "Rodrigo Reyes",
+        "ip": "9094"
       }
     },
     {
@@ -1165,9 +1221,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#808080",
-        "marker-size": "",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "aeropuerto",
         "lunvie": "7:00 a 23:00",
@@ -1175,7 +1228,9 @@
         "dom": "7:00 a 23:00",
         "tlf": "(02) 26901061",
         "description": "-Área Internacional- Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
-        "title": "AFEX Aeropuerto Nivel 2"
+        "title": "AFEX Aeropuerto Nivel 2",
+        "jefe": "Rodrigo Reyes",
+        "ip": "9094"
       }
     },
     {
@@ -1188,9 +1243,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#808080",
-        "marker-size": "",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "aeropuerto",
         "lunvie": "24:00 hrs.",
@@ -1198,15 +1250,21 @@
         "dom": "7:00 a 23:00",
         "tlf": "(02) 26901061",
         "description": "-Área Internacional- Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
-        "title": "AFEX Aeropuerto Nivel 3"
+        "title": "AFEX Aeropuerto Nivel 3",
+        "jefe": "Rodrigo Reyes",
+        "ip": "9094"
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.54054409265518,
+          -33.416267958861134
+        ]
+      },
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "sunday": "true",
         "tipo": "mallpronto",
         "lunvie": "cerrado",
@@ -1214,14 +1272,9 @@
         "dom": "cerrado",
         "tlf": "(02) 26369000",
         "title": "AFEX Mall Plaza Los Dominicos",
-        "description": "Av. Padre Hurtado Sur 785, Mall Plaza Los Dominicos, Nivel -1, local BS-1452, Las Condes, Santiago, Región Metropolitana"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.54054409265518,
-          -33.416267958861134
-        ]
+        "description": "Av. Padre Hurtado Sur 785, Mall Plaza Los Dominicos, Nivel -1, local BS-1452, Las Condes, Santiago, Región Metropolitana",
+        "jefe": "Andres Aguilar",
+        "ip": "000"
       }
     }
   ]
