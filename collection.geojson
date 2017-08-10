@@ -1138,10 +1138,10 @@
         "lunvie": "24:00 hrs.",
         "sab": "7:00 a 23:00",
         "dom": "7:00 a 23:00",
-        "tlf": "(02) 26901061",
-        "description": "-Área Pública- Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
+        "tlf": "(02) 26901060",
+        "description": "Puerta 4, Área Pública, Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
         "title": "AFEX Aeropuerto Nivel 1",
-        "jefe": "Rodrigo Reyes",
+        "jefe": "Rodrigo Reyes, Francisco Farías",
         "ip": "9094"
       }
     },
@@ -1160,11 +1160,11 @@
         "lunvie": "7:00 a 23:00",
         "sab": "7:00 a 23:00",
         "dom": "7:00 a 23:00",
-        "tlf": "(02) 26901061",
-        "description": "-Área Pública- Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
+        "tlf": "(02) 26369071",
+        "description": "Puerta 3, Área Pública, Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
         "title": "AFEX Aeropuerto Nivel 1",
-        "jefe": "Rodrigo Reyes",
-        "ip": "9094"
+        "jefe": "Rodrigo Reyes, Francisco Farías",
+        "ip": "9071"
       }
     },
     {
@@ -1182,11 +1182,11 @@
         "lunvie": "24:00 hrs.",
         "sab": "24:00 hrs.",
         "dom": "24:00 hrs.",
-        "tlf": "(02) 26901061",
-        "description": "-Área  Internacional- Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
+        "tlf": "(02) 26369094",
+        "description": "Zona DuttyFree, Área  Internacional, Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
         "title": "AFEX Aeropuerto Nivel 1",
-        "jefe": "Rodrigo Reyes",
-        "ip": "9094"
+        "jefe": "Rodrigo Reyes, Francisco Farías",
+        "ip": "9094-9095"
       }
     },
     {
@@ -1204,11 +1204,11 @@
         "lunvie": "24:00 hrs.",
         "sab": "24:00 hrs.",
         "dom": "24:00 hrs.",
-        "tlf": "(02) 26901061",
-        "description": "-Área Pública- Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
+        "tlf": "(02) 26369143",
+        "description": "Costado policia internacional, Área Pública, Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
         "title": "AFEX Aeropuerto Nivel 3",
-        "jefe": "Rodrigo Reyes",
-        "ip": "9094"
+        "jefe": "Rodrigo Reyes, Francisco Farías",
+        "ip": "9143"
       }
     },
     {
@@ -1226,11 +1226,11 @@
         "lunvie": "7:00 a 23:00",
         "sab": "7:00 a 23:00",
         "dom": "7:00 a 23:00",
-        "tlf": "(02) 26901061",
-        "description": "-Área Internacional- Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
+        "tlf": "(02) 26369197",
+        "description": "Transito, Área Internacional, Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
         "title": "AFEX Aeropuerto Nivel 2",
-        "jefe": "Rodrigo Reyes",
-        "ip": "9094"
+        "jefe": "Rodrigo Reyes, Francisco Farías",
+        "ip": "9197"
       }
     },
     {
@@ -1245,14 +1245,14 @@
       "properties": {
         "sunday": "true",
         "tipo": "aeropuerto",
-        "lunvie": "24:00 hrs.",
+        "lunvie": "7:00 a 23:00",
         "sab": "7:00 a 23:00",
         "dom": "7:00 a 23:00",
-        "tlf": "(02) 26901061",
-        "description": "-Área Internacional- Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
+        "tlf": "(02) 26369048",
+        "description": "Zona Embarcación, puerta 15-16, Área Internacional, Aeropuerto Internacional Nuevo Pudahuel, Pudahuel, Santiago, Región Metropolitana",
         "title": "AFEX Aeropuerto Nivel 3",
-        "jefe": "Rodrigo Reyes",
-        "ip": "9094"
+        "jefe": "Rodrigo Reyes, Francisco Farías",
+        "ip": "9048"
       }
     },
     {
