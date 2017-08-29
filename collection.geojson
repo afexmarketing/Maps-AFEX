@@ -11,16 +11,19 @@
         ]
       },
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "sunday": "true",
         "tipo": "mallnuevo",
-        "lunvie": "10:00 a 21:30",
-        "sab": "10:00 a 21:30",
-        "dom": "10:00 a 21:30",
+        "lunvie": "10:00 a 21:00",
+        "sab": "10:30 a 20:00",
+        "dom": "11:00 a 20:00",
         "tlf": "(22) 6369188",
         "description": "Avenida Camilo Henríquez #3692, Mall Plaza Tobalaba, Local BH 164, Puente Alto, Santiago, Región Metropolitana",
         "title": "AFEX Mall Plaza Tobalaba",
         "jefe": "Carlos Valdes",
-        "ip": "9184"
+        "ip": 9184
       }
     },
     {
@@ -1265,16 +1268,19 @@
         ]
       },
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "sunday": "true",
-        "tipo": "mallpronto",
+        "tipo": "mallnuevo",
         "lunvie": "10:00 a 21:30",
         "sab": "10:00 a 21:30",
         "dom": "10:00 a 21:30",
         "tlf": "(02) 26369170",
-        "title": "Proximamente. AFEX Mall Plaza Los Dominicos",
+        "title": "AFEX Mall Plaza Los Dominicos",
         "description": "Av. Padre Hurtado Sur 785, Mall Plaza Los Dominicos, Nivel -1, local BS-1452, Las Condes, Santiago, Región Metropolitana",
         "jefe": "Maria Jose Contreras",
-        "ip": "9170"
+        "ip": 9170
       }
     }
   ]
