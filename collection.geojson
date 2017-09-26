@@ -432,16 +432,19 @@
         ]
       },
       "properties": {
-        "sunday": true,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "true",
         "tipo": "mall",
-        "lunvie": "9:00 a 20:00",
-        "sab": "10:00 a 19:00",
-        "dom": "11:00 a 18:00",
+        "lunvie": "9:00 a 20:30",
+        "sab": "9:00 a 20:30",
+        "dom": "9:00 a 20:00",
         "tlf": "(02) 26369138",
         "description": "Mall Arauco Estación, Galería Poniente, local 135-137, Estación Central, Santiago, Región Metropolitana",
         "title": "AFEX Estación Central",
         "jefe": "Gustavo Manzano",
-        "ip": "9120"
+        "ip": 9120
       }
     },
     {
