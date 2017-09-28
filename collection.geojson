@@ -853,16 +853,19 @@
         ]
       },
       "properties": {
-        "sunday": true,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "true",
         "tipo": "mall",
         "lunvie": "10:00 a 20:00",
-        "sab": "11:00 a 17:00",
+        "sab": "10:30 a 20:00",
         "dom": "10:30 a 20:00",
         "tlf": "(22) 6369177",
         "description": "Libertad 1348, Mall Marina Arauco, local E-8, Viña del Mar, Valparaiso",
         "title": "AFEX Mall Marina Arauco",
         "jefe": "Angel Moya",
-        "ip": "9177"
+        "ip": 9177
       }
     },
     {
