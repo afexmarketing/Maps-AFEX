@@ -633,7 +633,10 @@
         ]
       },
       "properties": {
-        "sunday": false,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "false",
         "tipo": "calle",
         "lunvie": "8:30 a 18:30",
         "sab": "10:00 a 14:00",
@@ -641,7 +644,7 @@
         "tlf": "(57) 2414324",
         "description": "Patricio Lynch 467A, Iquique, Tarapacá",
         "title": "AFEX Iquique centro",
-        "jefe": "Yendy Salvo",
+        "jefe": "Teresa Lemunao",
         "ip": "9054-9181"
       }
     },
@@ -765,7 +768,10 @@
         ]
       },
       "properties": {
-        "sunday": false,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "false",
         "tipo": "calle",
         "lunvie": "9:00 a 18:30",
         "sab": "10:00 a 14:00",
@@ -773,8 +779,8 @@
         "tlf": "(51) 2317665",
         "description": "Bilbao 335, Coquimbo, Coquimbo",
         "title": "AFEX Coquimbo",
-        "jefe": "Jessica Castro",
-        "ip": "9116"
+        "jefe": "Yessica Castro",
+        "ip": 9116
       }
     },
     {
