@@ -589,16 +589,19 @@
         ]
       },
       "properties": {
-        "sunday": true,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "true",
         "tipo": "mall",
         "lunvie": "10:00 a 21:00",
-        "sab": "10:00 a 20:30",
-        "dom": "10:00 a 20:30",
+        "sab": "9:00 a 20:30",
+        "dom": "9:00 a 20:30",
         "tlf": "(02) 28987877",
         "description": "Av Libertador Bernardo O'Higgins 3470, Mall Alameda, local BZ-123, Estación Central, Santiago, Región Metropolitana",
         "title": "AFEX Mall Alameda",
         "jefe": "Alex Catrian",
-        "ip": "9121"
+        "ip": 9121
       }
     },
     {
