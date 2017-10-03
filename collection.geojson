@@ -58,16 +58,19 @@
         ]
       },
       "properties": {
-        "sunday": true,
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "sunday": "true",
         "tipo": "mall",
-        "lunvie": "10:30 a 21:30",
-        "sab": "10:30 a 21:30",
-        "dom": "10:30 a 21:30",
+        "lunvie": "10:30 a 21:00",
+        "sab": "10:30 a 21:00",
+        "dom": "10:30 a 21:00",
         "tlf": "(22) 6369108",
         "description": "Av. Américo Vespucio 300, Mall Arauco Maipú, local #406 piso 2, Maipú, Santiago, Región Metropolitana",
         "title": "AFEX Mall Arauco Maipú",
         "jefe": "Cristopher Pinto",
-        "ip": "9108"
+        "ip": 9108
       }
     },
     {
